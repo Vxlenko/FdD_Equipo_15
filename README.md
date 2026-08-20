@@ -1,16 +1,14 @@
-# Equipo 0X - Nombre del curso
-### Carrera de Ingeniería Ambiental / Informática / Industrial  
+# Equipo 15 - Fundamento de Diseño
+### Carrera de Ingeniería Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
 ---
 
 ## 🌍 Descripción del Equipo 
-Somos el **Equipo 0X** del curso **Nombre del curso 202X-1**, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
+Somos el **Equipo 15** del curso **Fundamento de Diseño 2026-2**, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
 Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.  
 
-Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
-- ODS 3: Salud y Bienestar  
-- ODS 6: Agua Limpia y Saneamiento  
+Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**    
 - ODS 9: Industria, Innovación e Infraestructura  
 - ODS 11: Ciudades y Comunidades Sostenibles  
 - ODS 13: Acción por el Clima  
@@ -29,11 +27,11 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Nombre 1** | Líder del equipo | Innovación social, sostenibilidad |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Nombre 2** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Nombre 3** | Diseñador/a | Diseño de prototipos, creatividad aplicada |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Nombre 4** | Encargado/a de documentación | Comunicación científica, redacción técnica |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Nombre 5** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Kenneth Samir Ramos Espinoza** | Líder del equipo | Innovación social, sostenibilidad |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Leonardo Pedro Espinoza Flores** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Giordano Valentino Valero Bonifacio** | Diseñador/a | Diseño de prototipos, creatividad aplicada |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Leonel Willians Sotelo Mamani** | Encargado/a de documentación | Comunicación científica, redacción técnica |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Josue Ismael Cardenas Luna** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
 
 ---
 
