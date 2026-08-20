@@ -28,10 +28,10 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Kenneth Samir Ramos Espinoza** | Líder del equipo | Innovación social, sostenibilidad |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Leonardo Pedro Espinoza Flores** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Giordano Valentino Valero Bonifacio** | Diseñador/a | Diseño de prototipos, creatividad aplicada |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Leonel Willians Sotelo Mamani** | Encargado/a de documentación | Comunicación científica, redacción técnica |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Josue Ismael Cardenas Luna** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Giordano Valentino Valero Bonifacio** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Leonardo Pedro Espinoza Flores** | Diseñador/a | Diseño de prototipos, creatividad aplicada |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Josue Ismael Cardenas Luna** | Encargado/a de documentación | Comunicación científica, redacción técnica |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Leonel Willians Sotelo Mamani** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
 
 ---
 
