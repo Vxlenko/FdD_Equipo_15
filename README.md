@@ -17,7 +17,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 ## 📸 Fotografía del Equipo  
 <p align="center">
-<img width="1408" height="768" alt="imagen_alumnos_IA" src="https://github.com/user-attachments/assets/3829718f-51c7-4d00-b262-ef37f178f059" />
+<img width="1408" height="768" alt="imagen_alumnos_IA" src="/Recursos/Imágenes/Grupo.png" />
   <em>Figura 1. Fotografía del equipo 0X</em>
 </p>
 
@@ -27,11 +27,11 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Kenneth Samir Ramos Espinoza** | Líder del equipo | Innovación social, sostenibilidad |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Giordano Valentino Valero Bonifacio** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Leonardo Pedro Espinoza Flores** | Diseñador/a | Diseño de prototipos, creatividad aplicada |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Josue Ismael Cardenas Luna** | Encargado/a de documentación | Comunicación científica, redacción técnica |
-| <img src="/Recursos/Imágenes/willians.jpeg" width="90"/> | **Leonel Willians Sotelo Mamani** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
+| <img src="/Recursos/Imágenes/Kenneth.png" width="90"/> | **Kenneth Samir Ramos Espinoza** | Líder del equipo | Innovación social, sostenibilidad |
+| <img src="/Recursos/Imágenes/Giordano.png" width="90"/> | **Giordano Valentino Valero Bonifacio** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
+| <img src="/Recursos/Imágenes/Leonardo.png" width="90"/> | **Leonardo Pedro Espinoza Flores** | Diseñador/a | Diseño de prototipos, creatividad aplicada |
+| <img src="/Recursos/Imágenes/Josue.png" width="90"/> | **Josue Ismael Cardenas Luna** | Encargado/a de documentación | Comunicación científica, redacción técnica |
+| <img src="/Recursos/Imágenes/Willians.png" width="90"/> | **Leonel Willians Sotelo Mamani** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
 
 ---
 
