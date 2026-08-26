@@ -6,12 +6,26 @@
 
 ## 🌍 Descripción del Equipo 
 Somos el **Equipo 15** del curso **Fundamento de Diseño 2026-2**, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
-Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.  
 
-Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**    
-- ODS 9: Industria, Innovación e Infraestructura  
-- ODS 11: Ciudades y Comunidades Sostenibles  
-- ODS 13: Acción por el Clima  
+## Propósito del Proyecto
+
+Aplicamos metodología de diseño centrado en el usuario para desarrollar una solución tecnológica que aborda la sostenibilidad de recursos hídricos en contextos urbanos, generando impacto social, ambiental y tecnológico.
+
+## Objetivos de Desarrollo Sostenible (ODS)
+
+Nuestro proyecto responde directamente a tres ODS interconectados:
+
+# ODS 11: Ciudades y Comunidades Sostenibles (PRINCIPAL)
+
+Optimizamos el consumo de agua en espacios urbanos de Lima mediante automatización inteligente del riego, reduciendo desperdicio en jardines, parques y áreas verdes públicas.
+
+# ODS 9: Industria, Innovación e Infraestructura 
+
+Implementamos tecnología IoT de bajo costo para democratizar soluciones sostenibles accesibles en contextos de economía limitada.
+
+# ODS 13: Acción por el Clima 
+
+Al reducir el consumo de agua innecesario, contribuimos indirectamente a la mitigación del cambio climático y la conservación de recursos hídricos escasos en zonas urbanas áridas.
 
 ---
 
