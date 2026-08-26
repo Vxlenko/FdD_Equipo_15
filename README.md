@@ -5,7 +5,7 @@
 ---
 
 ## 🌍 Descripción del Equipo 
-Somos el **Equipo 15** del curso **Fundamento de Diseño 2026-2**, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
+Somos el **Equipo 15** del curso **Fundamento de Diseño 2026-2**, conformado por estudiantes de la carrera de Ingeniería Informática / Industrial.  
 
 ## Propósito del Proyecto
 
@@ -13,15 +13,31 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 
 ## Objetivos de Desarrollo Sostenible (ODS)
 
-Nuestro proyecto responde directamente a tres ODS interconectados:
+Nuestro proyecto aborda una problemática relacionada con tres ODS que se encuentran interconectadas:
 
 **ODS 11: Ciudades y Comunidades Sostenibles (PRINCIPAL)**
 
-Optimizamos el consumo de agua en espacios urbanos de Lima mediante automatización inteligente del riego, reduciendo desperdicio en jardines, parques y áreas verdes públicas.
+Buscamos lograr que el consumo de agua en espacios urbanos de Lima mediante automatización inteligente del riego, reduzca desperdicios en jardines, parques y áreas verdes públicas.
+
+**Meta 11.7**
+
+Proporcionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles.
+
+**ODS 6: Agua limpia y Sanamiento**
+
+Procuramos garantizar la disponibilidad y gestión sostenible del agua en el riego de áreas verdes urbanas.
+
+**Meta 6.4**
+
+Aumentar considerablemente el uso eficiente de los recursos hídricos en todos los sectores y asegurar la sostenibilidad junto al abastecimiento de agua.
 
 **ODS 9: Industria, Innovación e Infraestructura**
 
-Implementamos tecnología IoT de bajo costo para democratizar soluciones sostenibles accesibles en contextos de economía limitada.
+Implementamos tecnología IoT de bajo costo para democratizar soluciones sostenibles accesibles e innovadoras en contextos de economía limitada.
+
+**Meta 9.4**
+
+Modernizar la infraestructura para que sean sostenibles, utilizando los recursos con mayor eficacia y promoviendo la adopción de tecnologías y procesos industriales limpios y ambientalmente racionales.
 
 **ODS 13: Acción por el Clima** 
 
