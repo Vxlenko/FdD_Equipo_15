@@ -15,15 +15,15 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 
 Nuestro proyecto responde directamente a tres ODS interconectados:
 
-# ODS 11: Ciudades y Comunidades Sostenibles (PRINCIPAL)
+**ODS 11: Ciudades y Comunidades Sostenibles (PRINCIPAL)**
 
 Optimizamos el consumo de agua en espacios urbanos de Lima mediante automatización inteligente del riego, reduciendo desperdicio en jardines, parques y áreas verdes públicas.
 
-# ODS 9: Industria, Innovación e Infraestructura 
+**ODS 9: Industria, Innovación e Infraestructura**
 
 Implementamos tecnología IoT de bajo costo para democratizar soluciones sostenibles accesibles en contextos de economía limitada.
 
-# ODS 13: Acción por el Clima 
+**ODS 13: Acción por el Clima** 
 
 Al reducir el consumo de agua innecesario, contribuimos indirectamente a la mitigación del cambio climático y la conservación de recursos hídricos escasos en zonas urbanas áridas.
 
