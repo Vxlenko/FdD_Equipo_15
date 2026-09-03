@@ -18,3 +18,28 @@
 [4]: https://rachio.com/products/rachio-3
 [5]: https://www.orbitonline.com/products/b-hyve-smart-1-outlet-watering-timer-gen-2
 [6]: https://www.rainbird.com/professionals/esp-tm2-residential-controller
+
+
+## Tesis con relación a nuestro proyecto
+
+| **Nombre** | **Tema** | **Aporte** | **Variables / rango de valores** | **Referencia** |
+|---|---|---|---|---|
+| Villa Longa, José Aarón | Diseño de la red de sensores WOT en la nube para el riego inteligente de parques municipales de Lima | Establece marco teórico de riego inteligente en contexto urbano limeño. Demuestra viabilidad tecnológica de sistemas de sensores IoT para optimización hídrica en espacios públicos. | Sensores IoT, humedad del suelo, riego automatizado, consumo de agua y monitoreo en la nube. | Villa Longa 2020 |
+| Anci Yep, Hermosa Cáceres | Sistema de riego automatizado para *Solanum lycopersicum* (tomate) con IoT y modelos predictivos para ahorro de agua | Proporciona metodología de automatización con sensores inalámbricos y almacenamiento en nube. Demuestra aplicación de algoritmos predictivos (ARIMA, Random Forest) para optimizar consumo hídrico con enfoque agrícola urbano. | Humedad del suelo, temperatura, variables ambientales, consumo de agua, sensores inalámbricos y modelos predictivos ARIMA y Random Forest. | Anci Yep y Hermosa Cáceres 2025 |
+| Ordoñez Huamán, J.L.; Cieza Quispe, J.A. | Diseño de un sistema de control automatizado mediante tecnología Arduino para el riego del vivero de la Municipalidad Provincial de Jaén - Perú | Valida el uso de Arduino como microcontrolador viable para riego automatizado a escala municipal. Demuestra una reducción significativa del consumo de agua mediante un sistema automatizado. | **Consumo actual:** 5,783.6148 m³/año. **Consumo automatizado:** 1,560.6 m³/año. **Ahorro:** ≈73%. **VAN:** S/ 5,976.95. **TIR:** 23%. **B/C:** 1.24. **Sensores:** 12 sensores de humedad y luminosidad. | Ordoñez Huamán y Cieza Quispe 2024 |
+
+---
+
+## Referencias
+
+[7] Villa Longa JA. Diseño de la red de sensores WOT en la nube para el riego inteligente de parques municipales de Lima [Tesis de Maestría]. Pontificia Universidad Católica del Perú; 2020. Disponible en:
+
+http://hdl.handle.net/20.500.12404/17379
+
+[8] Anci Yep, Hermosa Cáceres. Sistema de riego automatizado para *Solanum lycopersicum* (tomate) con IoT y modelos predictivos para ahorro de agua [Tesis de Pregrado]. Universidad de Lima; 2025. Disponible en:
+
+https://repositorio.ulima.edu.pe/handle/20.500.12724/23158
+
+[9] Ordoñez Huamán JL, Cieza Quispe JA. Diseño de un sistema de control automatizado mediante tecnología Arduino para el riego del vivero de la Municipalidad Provincial de Jaén - Perú [Tesis de Pregrado]. Universidad Nacional de Jaén; 2024. Disponible en:
+
+https://repositorio.unj.edu.pe/items/146b1eec-d685-4b56-b736-7f672840f2fe
