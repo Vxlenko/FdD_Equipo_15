@@ -7,3 +7,14 @@
 [1]: https://www.tandfonline.com/doi/full/10.1080/27678490.2023.2294076?utm_source=chatgpt.com "Full article: Water efficiency in smart cities: optimising irrigation for public green spaces"
 [2]: https://www.sciencedirect.com/science/article/pii/S1470160X25004017?utm_source=chatgpt.com "Role of green infrastructure planning in achieving sustainable development goals through an environmental efficiency lens: An integrated literature review - ScienceDirect"
 [3]: https://www.sciencedirect.com/science/article/pii/S0264275117301890?utm_source=chatgpt.com "Green infrastructure for sustainable urban water management: Practices of five forerunner cities - ScienceDirect"
+
+
+| Productos comerciales | Nombre | Tema | Valores y rango | Aporte | Referencias |
+| --------------------- | ------ | ---- | --------------- | ------ | ----------- |
+| 1 | Rachio 3 Smart Sprinkler Controller | Control inteligente y automatización del riego. | Control de hasta 16 zonas según el modelo. Dimensiones: 9.1 × 5.5 × 1.4 pulgadas. Requiere conexión Wi-Fi y aplicación móvil para su configuración. | Muestra cómo se puede automatizar el riego de varias zonas y ajustar el uso de agua según el clima, evitando riegos innecesarios. ([Rachio][4]) | Rachio. Rachio 3 Smart Sprinkler Controller. |
+| 2 | Gen 2 B-hyve Smart Hose Watering Timer with Gen 2 Hub (21204) | Automatización y control remoto del riego. | Temporizador de riego conectado mediante B-hyve Gen 2 Hub. Permite programación y control remoto del punto de riego. | Muestra una forma sencilla de automatizar el riego desde un punto de agua y controlarlo de manera remota. ([Orbit][5]) | Orbit Irrigation. Gen 2 B-hyve Smart Hose Watering Timer with Gen 2 Hub (21204). |
+| 3 | Rain Bird ESP-TM2 Residential Controller | Programación y gestión de sistemas de riego por zonas. | Modelos de 4, 6, 8 o 12 estaciones. Tiempo de riego por estación: 1 min–6 h. Ajuste estacional: 5%–200%. | Muestra cómo organizar el riego por zonas independientes, asignando diferentes tiempos y horarios según las necesidades de cada área. ([Rain Bird][6]) | Rain Bird. ESP-TM2 Residential Controller. |
+
+[4]: https://rachio.com/products/rachio-3
+[5]: https://www.orbitonline.com/products/b-hyve-smart-1-outlet-watering-timer-gen-2
+[6]: https://www.rainbird.com/professionals/esp-tm2-residential-controller
