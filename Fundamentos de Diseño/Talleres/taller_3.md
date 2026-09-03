@@ -51,40 +51,45 @@ https://repositorio.ulima.edu.pe/handle/20.500.12724/23158
 https://repositorio.unj.edu.pe/items/146b1eec-d685-4b56-b736-7f672840f2fe
 
 ## Patentes
-### 1. Sistema de riego automatizado, remoto y centralizado (WO2009010613A1)
 
-* **Autores:** Jordi Samon I Castellà, Manel Claus I March
-* **Año:** 2009
-* **Descripción:** Propone una arquitectura de control centralizado y remoto para optimizar el riego en áreas verdes urbanas. Utiliza una red jerárquica con servidor central, concentradores intermedios y dispositivos finales conectados vía radiofrecuencia (RF) de bajo consumo, eliminando la necesidad de infraestructura de cableado eléctrico.
+### 10. Sistema de riego automatizado, remoto y centralizado (WO2009010613A1)
 
----
-
-### 2. Smart Irrigation System (US8948921B2)
-
-* **Autores:** Patrick B. Halahan, J. Patrick McIntyre, Mark Coopersmith, Mark Puckett
-* **Año:** 2015
-* **Descripción:** Presenta un sistema de riego inteligente que convierte controladores tradicionales basados en temporizadores en sistemas adaptativos, calculando programas de riego optimizados en un servidor central mediante datos climáticos (evapotranspiración) e información del sitio.
+- **Autores:** Jordi Samon I Castellà, Manel Claus I March
+- **Año:** 2009
+- **Descripción:** Propone una arquitectura de control centralizado y remoto para optimizar el riego en áreas verdes urbanas. Utiliza una red jerárquica con servidor central, concentradores intermedios y dispositivos finales conectados vía radiofrecuencia (RF) de bajo consumo, eliminando la necesidad de infraestructura de cableado eléctrico.
 
 ---
 
-### 3. Dihedral Sensor for Evaluating Liquid Tension, Potential and Activity (US9588030B2)
+### 11. Smart Irrigation System (US8948921B2)
 
-* **Autores:** Adonai Gimenez Calbo
-* **Año:** 2017
-* **Descripción:** Sensor óptico y físico basado en un par de placas planas dispuestas en ángulo diédrico, diseñado para medir tensión de agua, potencial hídrico y actividad de agua en suelos, plantas y alimentos procesados mediante la observación de la capilaridad del menisco del fluido.
+- **Autores:** Patrick B. Halahan, J. Patrick McIntyre, Mark Coopersmith, Mark Puckett
+- **Año:** 2015
+- **Descripción:** Presenta un sistema de riego inteligente que convierte controladores tradicionales basados en temporizadores en sistemas adaptativos, calculando programas de riego optimizados en un servidor central mediante datos climáticos (evapotranspiración) e información del sitio.
 
-**Tabla Patentes y tecnologías de referencia para el desarrollo del sistema de riego inteligente**
+---
+
+### 12. Dihedral Sensor for Evaluating Liquid Tension, Potential and Activity (US9588030B2)
+
+- **Autor:** Adonai Gimenez Calbo
+- **Año:** 2017
+- **Descripción:** Sensor óptico y físico basado en un par de placas planas dispuestas en ángulo diédrico, diseñado para medir tensión de agua, potencial hídrico y actividad de agua en suelos, plantas y alimentos procesados mediante la observación de la capilaridad del menisco del fluido.
+
+---
+
+## Tabla de Patentes y tecnologías de referencia para el desarrollo del sistema de riego inteligente
 
 | Patente / Documento | Autores y Año | ¿En qué aporta a nuestro proyecto? | Información clave e importante | Valores de medición / variables | Imagen | Cita |
 |---|---|---|---|---|---|---|
-| **1. Sistema de riego automatizado, remoto y centralizado**<br>*(WO2009010613A1)* | • **Autores:** Jordi Samon I Castellà, Manel Claus I March<br>• **Año:** 2009 | Aporta la **arquitectura de comunicación jerárquica** (Servidor - Concentrador - Nodos actuadores) y la factibilidad de usar radiofrecuencia (RF) de bajo consumo para controlar electroválvulas en parques urbanos sin tender cableado eléctrico. | • Gestión centralizada vía servidor en la nube.<br>• Programación distribuida a concentradores locales.<br>• Módulos receptores RF acoplados directamente a las electroválvulas.<br>• Autonomía energética en campo mediante baterías independientes (3V a 9V). | • **Banda RF:** 868 MHz / 915 MHz (bandas ISM)<br>• **Alimentación:** Baterías 3V - 9V DC<br>• **Latencia de transmisión:** Ventanas de 1 - 15 min<br>• **Alcance RF:** 100 - 500 m por enlace | *Diagrama de la red jerárquica de comunicación (Servidor central ↔ Concentrador local ↔ Electroválvulas RF en campo)* | [1] |
-| **2. Smart Irrigation System**<br>*(US8948921B2)* | • **Autores:** Patrick B. Halahan, J. Patrick McIntyre, Mark Coopersmith, Mark Puckett<br>• **Año:** 2015 | Aporta el **algoritmo de cálculo de demanda hídrica real** basado en evapotranspiración de referencia (ET0) y parámetros del entorno, además de la lógica de acople a infraestructura de riego preexistente. | • Transforma programadores convencionales en controladores inteligentes sin reemplazar el hardware anfitrión.<br>• Ajusta dinámicamente el tiempo de riego según las condiciones meteorológicas e información de la zona (tipo de suelo, inclinación, tipo de planta).<br>• Comunicación remota mediante red celular (GPRS/SMS), Wi-Fi, satélite o línea telefónica. | • **Evapotranspiración (ET0):** Calculada diariamente según la zona<br>• **Agotamiento Permitido (MAD):** Basado en tipo de raíz y suelo<br>• **Parámetros del sitio:** Pendiente, tipo de emisor, nivel de sombra<br>• **Alimentación:** Extraída del controlador anfitrión con reserva de energía interna | *Esquema del módulo Smart Scheduler conectado al puerto remoto o interfaz de cable de cinta del controlador de riego* | [2] |
-| **3. Dihedral Sensor for Evaluating Liquid Tension, Potential and Activity**<br>*(US9588030B2)* | • **Autor:** Adonai Gimenez Calbo<br>• **Año:** 2017 | Proporciona un método **mecánico-óptico altamente preciso e inmune a la embolia** (burbujas de aire) para evaluar la tensión del agua y el potencial hídrico en el suelo sin depender de sensores electrónicos sumergidos propensos a corrosión. | • Geometría diédrica donde la posición del menisco capilar depende directamente de la tensión superficial y el ángulo del diedro.<br>• Elimina las lecturas erróneas por burbujas de aire comunes en los tensiómetros convencionales.<br>• Puede integrarse con microcámaras y elementos porosos cerámicos para lectura visual, con pie de rey o microscopio óptico. | • **Rango de tensión en suelo (regla/calibre):** 0 a 0.3 MPa<br>• **Rango de tensión (microscopio óptico):** Hasta 3.0 MPa<br>• **Rango de actividad de agua (aw):** 0.80 a 1.00<br>• **Grosor del menisco / separación entre placas (a):** Desde micrómetros (µm) hasta milímetros (mm) | *Diagrama de la geometría de las dos placas en ángulo diédrico mostrando la formación y distancia del menisco de agua* | [3] |
+| **1. Sistema de riego automatizado, remoto y centralizado**<br>*(WO2009010613A1)* | • **Autores:** Jordi Samon I Castellà, Manel Claus I March<br>• **Año:** 2009 | Aporta la **arquitectura de comunicación jerárquica** (Servidor - Concentrador - Nodos actuadores) y la factibilidad de usar radiofrecuencia (RF) de bajo consumo para controlar electroválvulas en parques urbanos sin tender cableado eléctrico. | • Gestión centralizada vía servidor en la nube.<br>• Programación distribuida a concentradores locales.<br>• Módulos receptores RF acoplados directamente a las electroválvulas.<br>• Autonomía energética en campo mediante baterías independientes (3V a 9V). | • **Banda RF:** 868 MHz / 915 MHz<br>• **Alimentación:** 3V - 9V DC<br>• **Latencia:** 1 - 15 min<br>• **Alcance RF:** 100 - 500 m | ![Sistema de riego automatizado](Recursos/Imágenes/SISTEMA%20DE%20RIEGO%20AUTOMATIZADO,%20REMOTO%20Y%20CENTRALIZADO%20.png) | **[10]** |
+| **2. Smart Irrigation System**<br>*(US8948921B2)* | • **Autores:** Patrick B. Halahan, J. Patrick McIntyre, Mark Coopersmith, Mark Puckett<br>• **Año:** 2015 | Aporta el **algoritmo de cálculo de demanda hídrica real** basado en evapotranspiración de referencia (ET0) y parámetros del entorno. | • Adaptación de programadores convencionales.<br>• Ajuste dinámico del tiempo de riego.<br>• Consideración de condiciones meteorológicas y características del sitio. | • **ET0:** diaria<br>• **MAD:** según suelo y raíces<br>• **Pendiente:** parámetro del sitio<br>• **Tipo de emisor:** parámetro del sistema | ![Smart Irrigation System](Recursos/Imágenes/1499076719543321497-08948921.png) | **[11]** |
+| **3. Dihedral Sensor for Evaluating Liquid Tension, Potential and Activity**<br>*(US9588030B2)* | • **Autor:** Adonai Gimenez Calbo<br>• **Año:** 2017 | Proporciona un método **mecánico-óptico** para evaluar la tensión del agua y el potencial hídrico en el suelo. | • Geometría diédrica.<br>• Medición mediante posición del menisco capilar.<br>• Puede utilizar elementos porosos y observación óptica. | • **Tensión:** 0 - 0.3 MPa<br>• **Tensión óptica:** hasta 3.0 MPa<br>• **Actividad de agua:** 0.80 - 1.00 | ![Dihedral Sensor](Recursos/Imágenes/US000009588030B220170307.png) | **[12]** |
 
 ---
 
-### **Bibliografía**
+## Bibliografía
 
-1. Samon I Castellà, J., & Claus I March, M. (2009). *Sistema de riego automatizado, remoto y centralizado* (WO Patent No. 2009010613A1). Organización Mundial de la Propiedad Intelectual (OMPI).
-2. Halahan, P. B., McIntyre, J. P., Coopersmith, M., & Puckett, M. (2015). *Smart Irrigation System* (US Patent No. 8,948,921 B2). U.S. Patent and Trademark Office.
-3. Gimenez Calbo, A. (2017). *Dihedral Sensor for Evaluating Liquid Tension, Potential and Activity* (US Patent No. 9,588,030 B2). U.S. Patent and Trademark Office.
+10. Samon I Castellà, J., & Claus I March, M. (2009). *Sistema de riego automatizado, remoto y centralizado* (WO Patent No. 2009010613A1). Organización Mundial de la Propiedad Intelectual (OMPI).
+
+11. Halahan, P. B., McIntyre, J. P., Coopersmith, M., & Puckett, M. (2015). *Smart Irrigation System* (US Patent No. 8,948,921 B2). U.S. Patent and Trademark Office.
+
+12. Gimenez Calbo, A. (2017). *Dihedral Sensor for Evaluating Liquid Tension, Potential and Activity* (US Patent No. 9,588,030 B2). U.S. Patent and Trademark Office.
