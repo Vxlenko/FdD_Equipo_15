@@ -9,15 +9,21 @@
 [3]: https://www.sciencedirect.com/science/article/pii/S0264275117301890?utm_source=chatgpt.com "Green infrastructure for sustainable urban water management: Practices of five forerunner cities - ScienceDirect"
 
 
+## Productos comerciales relacionados con nuestro proyecto
+
 | Productos comerciales | Nombre | Tema | Valores y rango | Aporte | Referencias |
 | --------------------- | ------ | ---- | --------------- | ------ | ----------- |
-| 1 | Rachio 3 Smart Sprinkler Controller | Control inteligente y automatización del riego. | Control de hasta 16 zonas según el modelo. Dimensiones: 9.1 × 5.5 × 1.4 pulgadas. Requiere conexión Wi-Fi y aplicación móvil para su configuración. | Muestra cómo se puede automatizar el riego de varias zonas y ajustar el uso de agua según el clima, evitando riegos innecesarios. ([Rachio][4]) | Rachio. Rachio 3 Smart Sprinkler Controller. |
-| 2 | Gen 2 B-hyve Smart Hose Watering Timer with Gen 2 Hub (21204) | Automatización y control remoto del riego. | Temporizador de riego conectado mediante B-hyve Gen 2 Hub. Permite programación y control remoto del punto de riego. | Muestra una forma sencilla de automatizar el riego desde un punto de agua y controlarlo de manera remota. ([Orbit][5]) | Orbit Irrigation. Gen 2 B-hyve Smart Hose Watering Timer with Gen 2 Hub (21204). |
-| 3 | Rain Bird ESP-TM2 Residential Controller | Programación y gestión de sistemas de riego por zonas. | Modelos de 4, 6, 8 o 12 estaciones. Tiempo de riego por estación: 1 min–6 h. Ajuste estacional: 5%–200%. | Muestra cómo organizar el riego por zonas independientes, asignando diferentes tiempos y horarios según las necesidades de cada área. ([Rain Bird][6]) | Rain Bird. ESP-TM2 Residential Controller. |
+| 1 | Rachio 3 Smart Sprinkler Controller | Control inteligente y automatización del riego. | Modelos de 4, 6, 8, 12 y 16 zonas. Dimensiones: 9.1 × 5.5 × 1.4 pulgadas. Requiere conexión Wi-Fi y aplicación móvil para su configuración. | Muestra cómo se puede automatizar el riego de varias zonas y ajustar el uso de agua según las condiciones climáticas, evitando riegos innecesarios. | [4] |
+| 2 | Gen 2 B-hyve Smart Hose Watering Timer with Gen 2 Hub (21204) | Automatización y control remoto del riego. | Presión recomendada de 5–100 PSI y rango de conexión aproximado de 3–100 pies. Puede funcionar mediante Bluetooth y utiliza el Gen 2 Hub para control remoto, riego inteligente y ajustes automáticos según el clima. | Muestra una forma sencilla de automatizar un punto de riego y controlarlo de manera remota, tomando en cuenta las condiciones meteorológicas. | [5] |
+| 3 | Rain Bird ESP-TM2 Residential Controller | Programación y gestión de sistemas de riego por zonas. | Disponible en modelos de 4, 6, 8 o 12 estaciones. Cuenta con 3 programas y hasta 4 horas de inicio por programa. Puede incorporar funciones inteligentes mediante un módulo Wi-Fi adicional. | Muestra cómo organizar y programar el riego de diferentes zonas de manera independiente según las necesidades de cada área. | [6] |
 
-[4]: https://rachio.com/products/rachio-3
-[5]: https://www.orbitonline.com/products/b-hyve-smart-1-outlet-watering-timer-gen-2
-[6]: https://www.rainbird.com/professionals/esp-tm2-residential-controller
+## Referencias
+
+[4] Rachio. Rachio 3 Smart Sprinkler Controller. Rachio; [citado 3 de septiembre de 2026]. Disponible en: https://rachio.com/products/rachio-3
+
+[5] Orbit Irrigation. Gen 2 B-hyve Smart Hose Watering Timer with Gen 2 Hub 21204. Orbit; [citado 3 de septiembre de 2026]. Disponible en: https://www.orbitonline.com/products/b-hyve-smart-1-outlet-watering-timer-gen-2
+
+[6] Rain Bird Corporation. ESP-TM2 Residential Controller. Rain Bird; [citado 3 de septiembre de 2026]. Disponible en: https://www.rainbird.com/professionals/esp-tm2-residential-controller
 
 
 ## Tesis con relación a nuestro proyecto
