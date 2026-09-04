@@ -11,38 +11,6 @@ Somos el **Equipo 15** del curso **Fundamento de Diseño 2026-2**, conformado po
 
 Aplicamos metodología de diseño centrado en el usuario para desarrollar una solución tecnológica que aborda la sostenibilidad de recursos hídricos en contextos urbanos, generando impacto social, ambiental y tecnológico.
 
-## Objetivos de Desarrollo Sostenible (ODS)
-
-Nuestro proyecto aborda una problemática relacionada con tres ODS que se encuentran interconectadas:
-
-**ODS 11: Ciudades y Comunidades Sostenibles (PRINCIPAL)**
-
-Buscamos lograr que el consumo de agua en espacios urbanos de Lima mediante automatización inteligente del riego, reduzca desperdicios en jardines, parques y áreas verdes públicas.
-
-**Meta 11.7**
-
-Proporcionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles.
-
-**ODS 6: Agua limpia y Sanamiento**
-
-Procuramos garantizar la disponibilidad y gestión sostenible del agua en el riego de áreas verdes urbanas.
-
-**Meta 6.4**
-
-Aumentar considerablemente el uso eficiente de los recursos hídricos en todos los sectores y asegurar la sostenibilidad junto al abastecimiento de agua.
-
-**ODS 9: Industria, Innovación e Infraestructura**
-
-Implementamos tecnología IoT de bajo costo para democratizar soluciones sostenibles accesibles e innovadoras en contextos de economía limitada.
-
-**Meta 9.4**
-
-Modernizar la infraestructura para que sean sostenibles, utilizando los recursos con mayor eficacia y promoviendo la adopción de tecnologías y procesos industriales limpios y ambientalmente racionales.
-
-**ODS 13: Acción por el Clima** 
-
-Al reducir el consumo de agua innecesario, contribuimos indirectamente a la mitigación del cambio climático y la conservación de recursos hídricos escasos en zonas urbanas áridas.
-
 ---
 
 ## 📸 Fotografía del Equipo  
@@ -65,5 +33,38 @@ Al reducir el consumo de agua innecesario, contribuimos indirectamente a la miti
 
 ---
 
+## 🌍 Alineación con los Objetivos de Desarrollo Sostenible (ODS)
+
+* **ODS 11: Ciudades y Comunidades Sostenibles (Principal)**
+  * **Meta 11.7:** Promover el mantenimiento y acceso a áreas verdes públicas mediante el uso eficiente y automatizado del agua en entornos urbanos áridos.
+
+* **ODS 6: Agua Limpia y Saneamiento**
+  * **Meta 6.4:** Incrementar la eficiencia del uso del agua en la gestión de infraestructura verde urbana para prevenir el desperdicio del recurso.
+
+* **ODS 9: Industria, Innovación e Infraestructura**
+  * **Meta 9.4:** Modernizar los sistemas de riego tradicionales incorporando tecnología IoT de bajo costo, accesible e innovadora.
+
+* **ODS 13: Acción por el Clima**
+  * Contribuir indirectamente a la mitigación del estrés hídrico y la adaptación al cambio climático en zonas urbanas.
+
+---
+
+## 🎯 Objetivos del Proyecto
+
+* **Objetivo General:**
+  
+
+* **Objetivos Específicos:**
+  1. 
+
+---
+
+## 💡 Propuesta de Solución
+
+* **Descripción general:**
+* **Problema que resuelve:** 
+* **Enfoque de diseño:**
+---
+
 ## 📌 Resumen Final  
-Este README resume quiénes somos, qué nos motiva y en qué ODS queremos enfocar nuestro trabajo durante el curso.  
+Este README resume quiénes somos, la problemática que abordamos, nuestros objetivos de proyecto y los ODS en los cuales enfocamos nuestra propuesta tecnológica durante el curso.
