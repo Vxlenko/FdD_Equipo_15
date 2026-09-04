@@ -9,7 +9,9 @@
 ## Referencias
 
 [1] Gasser L, Le Gall F, Abily M. Water efficiency in smart cities: optimising irrigation for public green spaces. Smart Agricultural Technology. 2024; [citado 3 de septiembre de 2026]. Disponible en: https://www.tandfonline.com/doi/full/10.1080/27678490.2023.2294076
+
 [2] Lin ZH, Laffan SW, Metternicht G. Role of green infrastructure planning in achieving sustainable development goals through an environmental efficiency lens: An integrated literature review. Ecological Indicators. 2025; [citado 3 de septiembre de 2026]. Disponible en: https://www.sciencedirect.com/science/article/pii/S1470160X25004017
+
 [3] Liu L, Jensen MB. Green infrastructure for sustainable urban water management: Practices of five forerunner cities. Cities. 2018; [citado 3 de septiembre de 2026]. Disponible en: https://www.sciencedirect.com/science/article/pii/S0264275117301890
 
 ## Productos comerciales relacionados con nuestro proyecto
