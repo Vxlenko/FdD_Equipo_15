@@ -5,6 +5,12 @@
 | **1** | Water efficiency in smart cities: optimising irrigation for public green spaces | Optimización del riego urbano mediante sensores, balance hídrico y datos meteorológicos. | Demuestra experimentalmente que el riego inteligente logra ahorros de agua entre el **35% (época seca)** y más del **60% (transición seca-húmeda)** [1]. | • Humedad del suelo (%)<br>• Precipitación (mm)<br>• Temperatura (°C)<br>• Consumo de agua (L) | Gasser L, Le Gall F, Abily M. (2024) [1]. |
 | **2** | Role of green infrastructure planning in achieving sustainable development goals through an environmental efficiency lens: an integrated literature review | Evaluación de la eficiencia ambiental de la infraestructura verde y su contribución a los ODS. | Fundamenta el impacto del proyecto alineándolo directamente con el **ODS 6** (Agua limpia), **ODS 11** (Ciudades sostenibles) y **ODS 13** (Acción por el clima) [2]. | • Frecuencia de riego (veces/semana)<br>• Eficiencia hídrica | Lin ZH, Laffan SW, Metternicht G. (2025) [2]. |
 | **3** | Green infrastructure for sustainable urban water management: Practices of five forerunner cities | Gestión sostenible del agua urbana y reducción de huella hídrica en ciudades modelo. | Aporta evidencias sobre la reducción del consumo de agua potable e identifica barreras operativas como costos y mantenimiento [3]. | • Tiempo de riego (min)<br>• Consumo de agua (m³) | Liu L, Jensen MB. (2018) [3]. |
+ 
+## Referencias
+
+[1] Gasser L, Le Gall F, Abily M. Water efficiency in smart cities: optimising irrigation for public green spaces. Smart Agricultural Technology. 2024; [citado 3 de septiembre de 2026]. Disponible en: https://www.tandfonline.com/doi/full/10.1080/27678490.2023.2294076
+[2] Lin ZH, Laffan SW, Metternicht G. Role of green infrastructure planning in achieving sustainable development goals through an environmental efficiency lens: An integrated literature review. Ecological Indicators. 2025; [citado 3 de septiembre de 2026]. Disponible en: https://www.sciencedirect.com/science/article/pii/S1470160X25004017
+[3] Liu L, Jensen MB. Green infrastructure for sustainable urban water management: Practices of five forerunner cities. Cities. 2018; [citado 3 de septiembre de 2026]. Disponible en: https://www.sciencedirect.com/science/article/pii/S0264275117301890
 
 ## Productos comerciales relacionados con nuestro proyecto
 
