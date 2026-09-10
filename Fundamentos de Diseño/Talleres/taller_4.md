@@ -19,15 +19,16 @@ La invención se aplica principalmente al mantenimiento y gestión inteligente d
 sistemas de riego automatizado y monitoreo de condiciones ambientales. Puede utilizarse en parques, jardines y otras áreas 
 con vegetación que requieran un control automatizado de la humedad y del suministro de agua.
 
-## Patente CN120731833A
+## Patente CN120731833A 
 
-*Título:* Dispositivo inteligente de suministro de agua para plantar flores y árboles
-*Publicación:* CN120731833A | 03/10/2025
+## Título de la invención
+Dispositivo inteligente de suministro de agua para plantar flores y árboles.
 
-### Breve resumen: 
+## Número y fecha de publicación
+CN120731833A — 03 de octubre de 2025.
 
-Sistema de riego inteligente que integra capilaridad, sensores ambientales, control automático e IoT para optimizar el suministro de agua a las plantas.
+## Breve resumen
+La patente presenta un dispositivo inteligente de suministro de agua para el cultivo de flores y árboles. El sistema combina el suministro de agua por capilaridad con un sistema de riego automatizado que utiliza sensores para medir la humedad del suelo, la temperatura y la humedad del aire. A partir de estos datos, calcula la necesidad de agua de la planta y activa automáticamente el riego cuando es necesario. Además, puede incorporar microbombas de agua, energía fotovoltaica, conectividad mediante Internet de las Cosas (IoT) y control remoto desde dispositivos móviles, buscando optimizar el consumo de agua y facilitar el mantenimiento de las plantas.
 
-### Campo de agregación: 
-
-Agricultura inteligente – Horticultura de precisión – Riego automatizado.
+## Campo de agregación
+Agricultura inteligente, floricultura y horticultura de precisión. La patente se relaciona con sistemas de riego automatizado, monitoreo ambiental, sensores de humedad y temperatura, Internet de las Cosas (IoT), energía fotovoltaica y uso eficiente del agua. Su aplicación puede extenderse desde macetas y jardines hasta huertos y áreas de cultivo de mayor tamaño.
