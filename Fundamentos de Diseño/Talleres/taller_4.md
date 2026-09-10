@@ -3,8 +3,7 @@
 - *Título de la invención:* Treegarden irrigation system based on Internet of Things big data
 - *Número de patente:* CN108184626A
 - *Fecha de publicación:* 22 de junio de 2018
-- *Inventores:* Wang Xichao; Xu Depei
-- *Solicitante:* Hefei Caomujiebing Environmental Tech Co., Ltd.
+
 
 ## Breve resumen
 
@@ -19,4 +18,16 @@ consumo innecesario de agua y mejorar el mantenimiento de jardines y áreas verd
 La invención se aplica principalmente al mantenimiento y gestión inteligente de jardines y áreas verdes, específicamente en 
 sistemas de riego automatizado y monitoreo de condiciones ambientales. Puede utilizarse en parques, jardines y otras áreas 
 con vegetación que requieran un control automatizado de la humedad y del suministro de agua.
-------------------------------------------------------------------------------------------------------------------------------
+
+## Patente CN120731833A
+
+*Título:* Dispositivo inteligente de suministro de agua para plantar flores y árboles
+*Publicación:* CN120731833A | 03/10/2025
+
+### Breve resumen: 
+
+Sistema de riego inteligente que integra capilaridad, sensores ambientales, control automático e IoT para optimizar el suministro de agua a las plantas.
+
+### Campo de agregación: 
+
+Agricultura inteligente – Horticultura de precisión – Riego automatizado.
