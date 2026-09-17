@@ -60,9 +60,9 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 
 ## 💡 Propuesta de Solución
 
-* **Descripción general:**Sistema de riego inteligente orientado a jardines y parques residenciales que combina monitoreo continuo del suelo y control mediante una aplicación web. El proceso se compone de cuatro fases: medir la humedad con sensores, analizar la lectura en el microcontrolador ESP32 frente a un umbral definido, regar activando el sistema solo cuando sea necesario y supervisar el estado general mediante la plataforma web.
+* **Descripción general:** Sistema de riego inteligente orientado a jardines y parques residenciales que combina monitoreo continuo del suelo y control mediante una aplicación web. El proceso se compone de cuatro fases: medir la humedad con sensores, analizar la lectura en el microcontrolador ESP32 frente a un umbral definido, regar activando el sistema solo cuando sea necesario y supervisar el estado general mediante la plataforma web.
 * **Problema que resuelve:** Elimina la ineficiencia asociada a los métodos tradicionales de riego (manuales o programados por temporizador fijo), los cuales operan independientemente del estado real del suelo y provocan un desperdicio significativo de agua por evaporación o escorrentía.
-* **Enfoque de diseño:**Aplica la metodología de diseño centrado en el usuario con un enfoque IoT de bajo costo. Prioriza el control basado en datos del entorno antes que en horarios prefijados, automatizando la toma de decisiones y facilitando la interacción del usuario mediante una interfaz web accesible.
+* **Enfoque de diseño:** Aplica la metodología de diseño centrado en el usuario con un enfoque IoT de bajo costo. Prioriza el control basado en datos del entorno antes que en horarios prefijados, automatizando la toma de decisiones y facilitando la interacción del usuario mediante una interfaz web accesible.
 ---
 
 ## 📌 Resumen Final  
