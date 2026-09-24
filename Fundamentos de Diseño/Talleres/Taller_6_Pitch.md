@@ -17,4 +17,4 @@ Grabamos un pitch sobre nuestra propuesta de riego modular por zonas para parque
 - Josue Ismael Cardenas Luna
 - Leonel Willians Sotelo Mamani
 
-Todos los integrantes participamos activamente en la preparación de la propuesta y del video del pitch.
+Todos los integrantes participamos activamente en la preparación de la propuesta y ppt.
