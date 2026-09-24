@@ -33,7 +33,7 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 
 ---
 
-## 🌍 Alineación con los Objetivos de Desarrollo Sostenible (ODS)
+## 🌍 Alineación con los Objetivos de Desarrollo Sostenible (ODS):
 
 * **ODS 11: Ciudades y Comunidades Sostenibles (Principal)**
   * **Meta 11.7:** Promover el mantenimiento y acceso a áreas verdes públicas mediante el uso eficiente y automatizado del agua en entornos urbanos áridos.
