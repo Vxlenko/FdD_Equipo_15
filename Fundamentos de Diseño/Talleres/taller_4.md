@@ -19,4 +19,3 @@ consumo innecesario de agua y mejorar el mantenimiento de jardines y áreas verd
 La invención se aplica principalmente al mantenimiento y gestión inteligente de jardines y áreas verdes, específicamente en 
 sistemas de riego automatizado y monitoreo de condiciones ambientales. Puede utilizarse en parques, jardines y otras áreas 
 con vegetación que requieran un control automatizado de la humedad y del suministro de agua.
-------------------------------------------------------------------------------------------------------------------------------
