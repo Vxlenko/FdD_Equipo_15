@@ -7,7 +7,7 @@
 
 Grabamos un pitch sobre nuestra propuesta de riego modular por zonas para parques de San Martín de Porres. El video está publicado en YouTube como **no listado**:
 
-**[Ver el pitch del Equipo 15](https://www.youtube.com/watch?v=EzuVidCrvsM)**
+**[Dirección del video en youtube (nolistadO)](https://www.youtube.com/watch?v=EzuVidCrvsM)**
 
 ## Integrantes
 
