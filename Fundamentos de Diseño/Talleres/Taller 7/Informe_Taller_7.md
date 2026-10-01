@@ -61,38 +61,37 @@ La lista de exigencias reúne las condiciones que tiene que cumplir el sistema y
 | 1 | Exigencia | Medición de humedad del suelo | Cada zona contará con un sensor de humedad del suelo conectado a su módulo de medición. |
 | 2 | Exigencia | Medición de temperatura del suelo | Cada zona contará con medición de temperatura del suelo. |
 | 3 | Exigencia | Módulos de medición por zona | Cada zona utilizará un ESP32-C3 SuperMini para adquirir y procesar las mediciones locales. |
-| 4 | Exigencia | Separación del sensor | Los sensores de suelo se ubicarán aproximadamente a 37 cm del módulo electrónico mediante cable, manteniendo la electrónica alejada del suelo húmedo. |
-| 5 | Exigencia | Módulo central | El sistema contará con un ESP32-S como módulo central para recibir datos de los módulos de zona y comunicarse con la plataforma. |
-| 6 | Exigencia | Detección de lluvia | El módulo central deberá detectar presencia de lluvia. |
-| 7 | Exigencia | Medición de luz ambiental | El módulo central deberá medir la intensidad de luz ambiental. |
-| 8 | Exigencia | Temperatura y humedad ambiental | El módulo central deberá medir temperatura y humedad del ambiente. |
-| 9 | Exigencia | Posición geográfica | El módulo central deberá obtener la ubicación mediante GPS. |
-| 10 | Exigencia | Comunicación entre módulos | Los módulos de zona deberán comunicarse con el módulo central mediante ESP-NOW. |
-| 11 | Exigencia | Comunicación con la plataforma | El módulo central deberá conectarse por Wi-Fi para enviar datos a la plataforma web. |
-| 12 | Exigencia | Frecuencia de actualización | La información del sistema deberá actualizarse en intervalos de hasta 5 minutos durante la operación normal. |
-| 13 | Exigencia | Identificación de zonas | Cada módulo y cada registro deberán estar asociados a una zona identificable. |
-| 14 | Exigencia | Riego independiente | El sistema deberá permitir activar o detener el riego de cada zona de manera independiente. |
-| 15 | Exigencia | Bomba por línea de riego | Cada línea o zona de riego contará con una bomba independiente. |
-| 16 | Exigencia | Control de múltiples bombas | Un controlador de riego basado en ESP32 deberá poder manejar varias bombas mediante canales de control independientes. |
-| 17 | Exigencia | Alimentación de bombas | Las bombas utilizarán una fuente eléctrica directa independiente de la alimentación solar de los módulos de monitoreo. |
-| 18 | Exigencia | Medición de caudal | Cada línea de riego contará con medición de caudal ubicada en la salida o boquilla de la manguera. |
-| 19 | Exigencia | Separación del agua y electrónica | Los controladores y componentes electrónicos deberán mantenerse protegidos y alejados de las salidas de agua. |
-| 20 | Exigencia | Control remoto | La plataforma deberá permitir solicitar la activación o detención del riego de una zona seleccionada. |
-| 21 | Exigencia | Control automático | El sistema deberá poder decidir el riego utilizando las mediciones y los parámetros configurados para cada zona. |
-| 22 | Exigencia | Monitoreo por zona | La plataforma deberá mostrar como mínimo humedad del suelo, temperatura del suelo, estado de riego y consumo de agua por zona. |
-| 23 | Exigencia | Monitoreo ambiental y ubicación | La plataforma deberá mostrar lluvia, luz, temperatura y humedad ambiental, además de la ubicación del sistema. |
-| 24 | Exigencia | Registro histórico | El sistema deberá almacenar como mínimo zona, fecha, hora, mediciones, estado de riego y volumen de agua registrado. |
-| 25 | Exigencia | Alimentación autónoma de monitoreo | Los módulos de monitoreo deberán utilizar panel solar y batería recargable. |
-| 26 | Exigencia | Gestión de energía | Los módulos deberán incluir gestión de carga y estrategias de bajo consumo cuando no estén realizando mediciones o transmisiones. |
-| 27 | Exigencia | Protección para exteriores | La electrónica de los módulos exteriores deberá instalarse en una cubierta que la proteja de humedad y salpicaduras. |
-| 28 | Exigencia | Validación de mediciones | Las mediciones deberán comprobarse bajo condiciones diferenciadas de humedad y temperatura para verificar que el sistema detecta cambios reales. |
-| 29 | Exigencia | Validación del riego independiente | En las pruebas deberá comprobarse que una orden destinada a una zona activa únicamente la bomba correspondiente. |
-| 30 | Exigencia | Comparación de consumo | El sistema deberá registrar litros por zona para comparar el consumo del riego propuesto con un método de referencia bajo condiciones comparables. |
-| 31 | Deseo | Escalabilidad | Se desea poder añadir nuevas zonas sin rediseñar completamente el sistema. |
-| 32 | Deseo | Facilidad de mantenimiento | Se desea que sensores, módulos y elementos de riego puedan revisarse o sustituirse sin desmontar todo el sistema. |
-| 33 | Deseo | Bajo costo | Se desea reducir el costo de componentes e instalación sin impedir el cumplimiento de las exigencias obligatorias. |
-| 34 | Deseo | Facilidad de instalación | Se desea que los módulos puedan instalarse con pocas modificaciones en el área verde seleccionada. |
-| 35 | Deseo | Diseño compacto | Se desea mantener un tamaño reducido en los módulos para facilitar su instalación y protección. |
+| 4 | Exigencia | Módulo central | El sistema contará con un ESP32-S como módulo central para recibir datos de los módulos de zona y comunicarse con la plataforma. |
+| 5 | Exigencia | Detección de lluvia | El módulo central deberá detectar presencia de lluvia. |
+| 6 | Exigencia | Medición de luz ambiental | El módulo central deberá medir la intensidad de luz ambiental. |
+| 7 | Exigencia | Temperatura y humedad ambiental | El módulo central deberá medir temperatura y humedad del ambiente. |
+| 8 | Exigencia | Posición geográfica | El módulo central deberá obtener la ubicación mediante GPS. |
+| 9 | Exigencia | Comunicación entre módulos | Los módulos de zona deberán comunicarse con el módulo central mediante ESP-NOW. |
+| 10 | Exigencia | Comunicación con la plataforma | El módulo central deberá conectarse por Wi-Fi para enviar datos a la plataforma web. |
+| 11 | Exigencia | Frecuencia de actualización | La información del sistema deberá actualizarse en intervalos de hasta 5 minutos durante la operación normal. |
+| 12 | Exigencia | Identificación de zonas | Cada módulo y cada registro deberán estar asociados a una zona identificable. |
+| 13 | Exigencia | Riego independiente | El sistema deberá permitir activar o detener el riego de cada zona de manera independiente. |
+| 14 | Exigencia | Bomba por línea de riego | Cada línea o zona de riego contará con una bomba independiente. |
+| 15 | Exigencia | Control de múltiples bombas | Un controlador de riego basado en ESP32 deberá poder manejar varias bombas mediante canales de control independientes. |
+| 16 | Exigencia | Alimentación de bombas | Las bombas utilizarán una fuente eléctrica directa independiente de la alimentación solar de los módulos de monitoreo. |
+| 17 | Exigencia | Medición de caudal | Cada línea de riego contará con medición de caudal ubicada en la salida o boquilla de la manguera. |
+| 18 | Exigencia | Separación del agua y electrónica | Los controladores y componentes electrónicos deberán mantenerse protegidos y alejados de las salidas de agua. |
+| 19 | Exigencia | Control remoto | La plataforma deberá permitir solicitar la activación o detención del riego de una zona seleccionada. |
+| 20 | Exigencia | Control automático | El sistema deberá poder decidir el riego utilizando las mediciones y los parámetros configurados para cada zona. |
+| 21 | Exigencia | Monitoreo por zona | La plataforma deberá mostrar como mínimo humedad del suelo, temperatura del suelo, estado de riego y consumo de agua por zona. |
+| 22 | Exigencia | Monitoreo ambiental y ubicación | La plataforma deberá mostrar lluvia, luz, temperatura y humedad ambiental, además de la ubicación del sistema. |
+| 23 | Exigencia | Registro histórico | El sistema deberá almacenar como mínimo zona, fecha, hora, mediciones, estado de riego y volumen de agua registrado. |
+| 24 | Exigencia | Alimentación autónoma de monitoreo | Los módulos de monitoreo deberán utilizar panel solar y batería recargable. |
+| 25 | Exigencia | Gestión de energía | Los módulos deberán incluir gestión de carga y estrategias de bajo consumo cuando no estén realizando mediciones o transmisiones. |
+| 26 | Exigencia | Protección para exteriores | La electrónica de los módulos exteriores deberá instalarse en una cubierta que la proteja de humedad y salpicaduras. |
+| 27 | Exigencia | Validación de mediciones | Las mediciones deberán comprobarse bajo condiciones diferenciadas de humedad y temperatura para verificar que el sistema detecta cambios reales. |
+| 28 | Exigencia | Validación del riego independiente | En las pruebas deberá comprobarse que una orden destinada a una zona activa únicamente la bomba correspondiente. |
+| 29 | Exigencia | Comparación de consumo | El sistema deberá registrar litros por zona para comparar el consumo del riego propuesto con un método de referencia bajo condiciones comparables. |
+| 30 | Deseo | Escalabilidad | Se desea poder añadir nuevas zonas sin rediseñar completamente el sistema. |
+| 31 | Deseo | Facilidad de mantenimiento | Se desea que sensores, módulos y elementos de riego puedan revisarse o sustituirse sin desmontar todo el sistema. |
+| 32 | Deseo | Bajo costo | Se desea reducir el costo de componentes e instalación sin impedir el cumplimiento de las exigencias obligatorias. |
+| 33 | Deseo | Facilidad de instalación | Se desea que los módulos puedan instalarse con pocas modificaciones en el área verde seleccionada. |
+| 34 | Deseo | Diseño compacto | Se desea mantener un tamaño reducido en los módulos para facilitar su instalación y protección. |
 
 ## 4. Caja negra
 
