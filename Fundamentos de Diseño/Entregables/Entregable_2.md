@@ -168,7 +168,7 @@ La lista de exigencias reúne las condiciones que tiene que cumplir el sistema y
 
 La función global consiste en monitorear condiciones y gestionar el riego por zonas. La caja negra representa intercambios de materia, energía e información sin anticipar la solución interna.
 
-![Diagrama del sistema](<../../Recursos/Imágenes/Caja_Negra_Sistema_Riego.png>)
+![Figura 1. Caja negra](../../Recursos/Imágenes/CajaNegraF.png)
 
 *Figura 1. Caja negra y tipos de flujo. Elaboración propia.*
 
@@ -190,7 +190,7 @@ Si una lectura es inválida, el sistema debe señalar la falla e inhibir una dec
 
 La función global se descompone en cinco dominios: interfaz, control, electrónica, mecánica y energía. La información adquirida en las zonas y en la central alimenta la decisión de riego. La orden de control acciona la bomba correspondiente, mientras la medición de caudal permite registrar el volumen suministrado.
 
-![Figura 2. Estructura de funciones](<../../Recursos/Imágenes/Estructura_de_Funciones_Riego.png>)
+![Figura 2. Estructura de funciones](../../Recursos/Imágenes/EstructuraDeFuncionesF.png)
 
 *Figura 2. Descomposición funcional del sistema modular de monitoreo y riego.*
 
@@ -301,19 +301,18 @@ Los bocetos representan los tres conceptos de la matriz integrada. Muestran la d
 
 ### Concepto A Central cableada
 
-![Diagrama del sistema](<../Talleres/Taller_Matrices_y_Seleccion/imagenes/Boceto_Concepto_A.png>)
+![Figura 3. Boceto del concepto A](../../Recursos/Imágenes/boceto1.png)
 
 *Figura 3. Sensores cableados a una central y canales de riego independientes.*
 
 ### Concepto B Zonas con acceso Wi-Fi
 
-![Diagrama del sistema](<../Talleres/Taller_Matrices_y_Seleccion/imagenes/Boceto_Concepto_B.png>)
-
+![Figura 4. Boceto del concepto B](../../Recursos/Imágenes/boceto2.png)
 *Figura 4. Nodos que publican directamente por Wi-Fi y unidad ambiental general.*
 
 ### Concepto C Central y módulos ESP-NOW
 
-![Diagrama del sistema](<../Talleres/Taller_Matrices_y_Seleccion/imagenes/Boceto_Concepto_C.png>)
+![Figura 5. Boceto del concepto C](../../Recursos/Imágenes/boceto3.png)
 
 *Figura 5. Nodos de zona, central de comunicaciones y potencia de bombeo separada.*
 
@@ -376,7 +375,13 @@ La selección establece la dirección de desarrollo. El alcance de radio, la aut
 
 El montaje actual concentra sensores y comunicación en un ESP32-S3. El equipo ha comprobado la adquisición y el envío de registros a Supabase con consulta desde la página web. Este montaje valida la etapa de medición y transmisión; no demuestra todavía la arquitectura multizona completa.
 
-![Figura 6. Arquitectura del prototipo actual](<../Talleres/Taller_Matrices_y_Seleccion/imagenes/Arquitectura_Prototipo_Actual.png>)
+![Figura 6. Montaje físico del prototipo](../../Recursos/Imágenes/PrototipoF.png)
+
+*Figura 6. Montaje físico del prototipo de adquisición y transmisión de datos.*
+
+![Figura 7. Panel web de monitoreo](../../Recursos/Imágenes/WebF.png)
+
+*Figura 7. Visualización web de las mediciones almacenadas en Supabase.*
 
 *Figura 6. Recorrido de la información en el montaje implementado.*
 
