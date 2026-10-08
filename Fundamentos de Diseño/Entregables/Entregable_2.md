@@ -301,18 +301,18 @@ Los bocetos representan los tres conceptos de la matriz integrada. Muestran la d
 
 ### Concepto A Central cableada
 
-![Figura 3. Boceto del concepto A](../../Recursos/Imágenes/boceto1.png)
+![Figura 3. Boceto del concepto A](../../Recursos/Imágenes/BOCETO1.png)
 
 *Figura 3. Sensores cableados a una central y canales de riego independientes.*
 
 ### Concepto B Zonas con acceso Wi-Fi
 
-![Figura 4. Boceto del concepto B](../../Recursos/Imágenes/boceto2.png)
+![Figura 4. Boceto del concepto B](../../Recursos/Imágenes/BOCETO2.png)
 *Figura 4. Nodos que publican directamente por Wi-Fi y unidad ambiental general.*
 
 ### Concepto C Central y módulos ESP-NOW
 
-![Figura 5. Boceto del concepto C](../../Recursos/Imágenes/boceto3.png)
+![Figura 5. Boceto del concepto C](../../Recursos/Imágenes/BOCETO3.png)
 
 *Figura 5. Nodos de zona, central de comunicaciones y potencia de bombeo separada.*
 
