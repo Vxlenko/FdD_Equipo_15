@@ -1,0 +1,498 @@
+Microsoft Windows [Versión 10.0.26200.9457]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\nonpl>cd "C:\Program Files\PostgreSQL\18\bin"
+
+C:\Program Files\PostgreSQL\18\bin>psql -U postgres
+Contraseña para usuario postgres:
+
+psql (18.4)
+ADVERTENCIA: El código de página de la consola (850) difiere del código
+            de página de Windows (1252).
+            Los caracteres de 8 bits pueden funcionar incorrectamente.
+            Vea la página de referencia de psql «Notes for Windows users»
+            para obtener más detalles.
+Digite «help» para obtener ayuda.
+
+postgres=# CREATE DATABASE tiendita;
+CREATE DATABASE
+postgres=# \l
+                                                                          Listado de base de datos
+        Nombre        |  Due±o   | Codificaci¾n | Proveedor de locale |      Collate      |       Ctype       | Configuraci¾n regional | Reglas ICU: |      Privilegios
+----------------------+----------+--------------+---------------------+-------------------+-------------------+------------------------+-------------+-----------------------
+ Alumnos              | postgres | UTF8         | libc                | Spanish_Peru.1252 | Spanish_Peru.1252 |                        |             |
+ Gestion_voluntariado | postgres | UTF8         | libc                | Spanish_Peru.1252 | Spanish_Peru.1252 |                        |             |
+ alumnos              | postgres | UTF8         | libc                | Spanish_Peru.1252 | Spanish_Peru.1252 |                        |             |
+ hospitalbd           | postgres | UTF8         | libc                | Spanish_Peru.1252 | Spanish_Peru.1252 |                        |             | =Tc/postgres         +
+                      |          |              |                     |                   |                   |                        |             | postgres=CTc/postgres+
+                      |          |              |                     |                   |                   |                        |             | medico1=c/postgres   +
+                      |          |              |                     |                   |                   |                        |             | medico2=c/postgres   +
+                      |          |              |                     |                   |                   |                        |             | medico3=c/postgres   +
+                      |          |              |                     |                   |                   |                        |             | reception=c/postgres
+ postgres             | postgres | UTF8         | libc                | Spanish_Peru.1252 | Spanish_Peru.1252 |                        |             |
+ template0            | postgres | UTF8         | libc                | Spanish_Peru.1252 | Spanish_Peru.1252 |                        |             | =c/postgres          +
+                      |          |              |                     |                   |                   |                        |             | postgres=CTc/postgres
+ template1            | postgres | UTF8         | libc                | Spanish_Peru.1252 | Spanish_Peru.1252 |                        |             | =c/postgres          +
+                      |          |              |                     |                   |                   |                        |             | postgres=CTc/postgres
+ tienda_db            | postgres | UTF8         | libc                | Spanish_Peru.1252 | Spanish_Peru.1252 |                        |             |
+ tiendita             | postgres | UTF8         | libc                | Spanish_Peru.1252 | Spanish_Peru.1252 |                        |             |
+(9 filas)
+
+
+postgres=#
+postgres=#
+postgres=#
+postgres=#
+postgres=#
+postgres=#
+postgres=#
+postgres=#
+postgres=#
+postgres=#
+postgres=#
+postgres=#
+postgres=# \c tiendita
+Ahora está conectado a la base de datos «tiendita» con el usuario «postgres».
+tiendita=# CREATE SCHEMA tienda;
+CREATE SCHEMA
+tiendita=# CREATE SCHEMA auditoria;
+CREATE SCHEMA
+tiendita=# CREATE TABLE clientes;
+ERROR:  error de sintaxis en o cerca de «;»
+LÍNEA 1: CREATE TABLE clientes;
+                              ^
+tiendita=# CREATE TABLE clientes(
+tiendita(# \r
+El búfer de consulta ha sido reiniciado (limpiado).
+tiendita=# CREATE TABLE tienda.clientes(
+tiendita(# id_cliente SERIAL PRIMARY KEY,
+tiendita(# nombre VARCHAR(100) NOT NULL,
+tiendita(# correo VARCHAR(200) UNIQUE
+tiendita(# );
+CREATE TABLE
+tiendita=# CREATE TABLE tienda.productos(
+tiendita(# id_producto SERIAL PRIMARY KEY,
+tiendita(# nombre VARCHAR(100) NOT NULL,
+tiendita(# precio NUMERIC(10, 2) NOT NULL,
+tiendita(# stock INT NOT NULL DEFAULT 0
+tiendita(# );
+CREATE TABLE
+tiendita=# CREATE TABLE tiend.ventas(
+tiendita(# /r
+tiendita(# \R
+orden \R no válida
+Digite \? para obtener ayuda.
+tiendita(# \r
+El búfer de consulta ha sido reiniciado (limpiado).
+tiendita=# CREATE TABLE tienda.ventas(
+tiendita(# id_venta SERIAL PRIMERY KEY,
+tiendita(# id_cliente INT NOT NULL REFERENCES tienda.clientes(id_cliente),
+tiendita(# id_producto INT NOT NULL REFERENCES tienda.productos(id_producto),
+tiendita(# cantidad INT NOT NULL CHECK (cantidad > 0),
+tiendita(# total NUMERIC(12, 2) NOT NULL CHECK (total >= 0),
+tiendita(# vendedor VARCHAR(100) NOT NULL DEFAULT CURRENT_USER,
+tiendita(# fecha TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+tiendita(# );
+ERROR:  error de sintaxis en o cerca de «PRIMERY»
+LÍNEA 2: id_venta SERIAL PRIMERY KEY,
+                         ^
+tiendita=# CREATE TABLE tienda.ventas(
+tiendita(# tiendita(# id_venta SERIAL PRIMERY KEY,
+tiendita(# tiendita(# id_cliente INT NOT NULL REFERENCES tienda.clientes(id_cliente),
+tiendita(# tiendita(# id_producto INT NOT NULL REFERENCES tienda.productos(id_producto),
+tiendita(# tiendita(# cantidad INT NOT NULL CHECK (cantidad > 0),
+tiendita(# tiendita(# total NUMERIC(12, 2) NOT NULL CHECK (total >= 0),
+tiendita(# tiendita(# vendedor VARCHAR(100) NOT NULL DEFAULT CURRENT_USER,
+tiendita(# tiendita(# fecha TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+tiendita(# tiendita(# vendedor VARCHAR(100) NOT NULL DEFAULT CURRENT_USER,
+tiendita(# \r
+El búfer de consulta ha sido reiniciado (limpiado).
+tiendita=# CREATE TABLE tienda.ventas(
+tiendita(# id_venta SERIAL PRIMARY KEY,
+tiendita(# d_cliente INT NOT NULL REFERENCES tienda.clientes(id_cliente),
+tiendita(# \r
+El búfer de consulta ha sido reiniciado (limpiado).
+tiendita=# CREATE TABLE tienda.ventas(
+tiendita(# id_venta SERIAL PRIMARY KEY,
+tiendita(# id_cliente INT NOT NULL REFERENCES tienda.clientes(id_cliente),
+tiendita(# id_producto INT NOT NULL REFERENCES tienda.productos(id_producto),
+tiendita(# cantidad INT NOT NULL CHECK (cantidad > 0),
+tiendita(# total NUMERIC(12, 2) NOT NULL CHECK (total >= 0),
+tiendita(# vendedor VARCHAR(100) NOT NULL DEFAULT CURRENT_USER,
+tiendita(# fecha TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+tiendita(# );
+CREATE TABLE
+tiendita=# INSERT INTO tienda.clientes(nombre, correo)
+tiendita-# VALUES
+tiendita-# ('Laura', 'lauracj7r@gmail.com')
+tiendita-# ('Lucho','lucho@gmail.com')
+tiendita-# ('Leonardo','leopoldo@gmail.com');
+ERROR:  error de sintaxis en o cerca de «(»
+LÍNEA 4: ('Lucho','lucho@gmail.com')
+         ^
+tiendita=# INSERT INTO tienda.clientes(nombre, correo)
+tiendita-# VALUES
+tiendita-# ('Laura', 'lauracj7r@gmail.com'),
+tiendita-# ('Lucho','lucho@gmail.com'),
+tiendita-# ('Leonardo','leopoldo@gmail.com');
+INSERT 0 3
+tiendita=# INSER INTO tienda.productos (nombre, precio, stock)
+tiendita-# VALUES
+tiendita-# ('leche',2.95,20),
+tiendita-# ('huevos',6,50),
+tiendita-# ('fideos',1.5,30);
+ERROR:  error de sintaxis en o cerca de «INSER»
+LÍNEA 1: INSER INTO tienda.productos (nombre, precio, stock)
+         ^
+tiendita=# INSERT INTO tienda.productos (nombre, precio, stock)
+tiendita-# VALUES
+tiendita-#  ('leche',2.95,20),
+tiendita-# ('huevos',6,50),
+tiendita-# ('fideos',1.5,30);
+INSERT 0 3
+tiendita=# \dn
+      Listado de esquemas
+  Nombre   |       Due±o
+-----------+-------------------
+ auditoria | postgres
+ public    | pg_database_owner
+ tienda    | postgres
+(3 filas)
+
+
+tiendita=# \dt tienda.*
+           Listado de tablas
+ Esquema |  Nombre   | Tipo  |  Due±o
+---------+-----------+-------+----------
+ tienda  | clientes  | tabla | postgres
+ tienda  | productos | tabla | postgres
+ tienda  | ventas    | tabla | postgres
+(3 filas)
+
+
+tiendita=# \d tienda.ventas
+                                                 Tabla ½tienda.ventas╗
+   Columna   |            Tipo             | Ordenamiento | Nulable  |                   Por omisi¾n
+-------------+-----------------------------+--------------+----------+-------------------------------------------------
+ id_venta    | integer                     |              | not null | nextval('tienda.ventas_id_venta_seq'::regclass)
+ id_cliente  | integer                     |              | not null |
+ id_producto | integer                     |              | not null |
+ cantidad    | integer                     |              | not null |
+ total       | numeric(12,2)               |              | not null |
+ vendedor    | character varying(100)      |              | not null | CURRENT_USER
+ fecha       | timestamp without time zone |              | not null | CURRENT_TIMESTAMP
+═ndices:
+    "ventas_pkey" PRIMARY KEY, btree (id_venta)
+Restricciones CHECK:
+    "ventas_cantidad_check" CHECK (cantidad > 0)
+    "ventas_total_check" CHECK (total >= 0::numeric)
+Restricciones de llave forßnea:
+    "ventas_id_cliente_fkey" FOREIGN KEY (id_cliente) REFERENCES tienda.clientes(id_cliente)
+    "ventas_id_producto_fkey" FOREIGN KEY (id_producto) REFERENCES tienda.productos(id_producto)
+
+
+tiendita=# SELECT * FROM tienda.clientes;
+ id_cliente |  nombre  |       correo
+------------+----------+---------------------
+          1 | Laura    | lauracj7r@gmail.com
+          2 | Lucho    | lucho@gmail.com
+          3 | Leonardo | leopoldo@gmail.com
+(3 filas)
+
+
+tiendita=# SELECT * FROM tienda.productos;
+ id_producto | nombre | precio | stock
+-------------+--------+--------+-------
+           1 | leche  |   2.95 |    20
+           2 | huevos |   6.00 |    50
+           3 | fideos |   1.50 |    30
+(3 filas)
+
+
+tiendita=# CREATE ROL vendedor_rol nologin;
+ERROR:  error de sintaxis en o cerca de «ROL»
+LÍNEA 1: CREATE ROL vendedor_rol nologin;
+                ^
+tiendita=# CREATE ROLE vendedor_rol nologin;
+CREATE ROLE
+tiendita=# CREATE USER laura_vendedor WITH PASSWORD '1234';
+CREATE ROLE
+tiendita=# GRANT venedor_rol TO laura_vendedor;
+ERROR:  no existe el rol «venedor_rol»
+tiendita=# GRANT vendedor_rol TO laura_vendedor;
+GRANT ROLE
+tiendita=# GRANT CONNECT DATABASE tiendita TO vendedor_rol;
+ERROR:  error de sintaxis en o cerca de «DATABASE»
+LÍNEA 1: GRANT CONNECT DATABASE tiendita TO vendedor_rol;
+                       ^
+tiendita=# GRANT CONNECT ON DATABASE tiendita TO vendedor_rol;
+GRANT
+tiendita=# GRANT USAGE ON SCHEMA tienda TO vendedor_rol;
+GRANT
+tiendita=# GRANT SELECT ON tienda.productos TO vendedor_rol;
+GRANT
+tiendita=# \du
+                              Listado de roles
+ Nombre de rol  |                         Atributos
+----------------+------------------------------------------------------------
+ laura_vendedor |
+ medico1        |
+ medico2        |
+ medico3        |
+ postgres       | Superusuario, Crear rol, Crear BD, Replicaci¾n, Ignora RLS
+ reception      |
+ vendedor_rol   | No puede conectarse
+
+
+tiendita=# \c tiendita postgres
+Ahora está conectado a la base de datos «tiendita» con el usuario «postgres».
+tiendita=# GRANT UPDATE ON tienda.productos TO vendedor_rol;
+GRANT
+tiendita=# \c laura vendor
+Contraseña para usuario vendor:
+
+falló la conexión al servidor en «localhost» (::1), puerto 5432: FATAL:  la autentificación password falló para el usuario «vendor»
+Se ha mantenido la conexión anterior
+tiendita=# \c laura_vendedor
+falló la conexión al servidor en «localhost» (::1), puerto 5432: FATAL:  no existe la base de datos «laura_vendedor»
+Se ha mantenido la conexión anterior
+tiendita=# \c laura vendedor
+Contraseña para usuario vendedor:
+
+falló la conexión al servidor en «localhost» (::1), puerto 5432: FATAL:  la autentificación password falló para el usuario «vendedor»
+Se ha mantenido la conexión anterior
+tiendita=# \c laura_vendedor
+falló la conexión al servidor en «localhost» (::1), puerto 5432: FATAL:  no existe la base de datos «laura_vendedor»
+Se ha mantenido la conexión anterior
+tiendita=# \c tiendita laura_vendedor
+Contraseña para usuario laura_vendedor:
+
+Ahora está conectado a la base de datos «tiendita» con el usuario «laura_vendedor».
+tiendita=> \c tiendita postgres
+Contraseña para usuario postgres:
+
+Ahora está conectado a la base de datos «tiendita» con el usuario «postgres».
+tiendita=# \c tiendita laura_vendedor
+Contraseña para usuario laura_vendedor:
+
+Ahora está conectado a la base de datos «tiendita» con el usuario «laura_vendedor».
+tiendita=> UPDATE tienda.productos
+tiendita-> SET precio = 260
+tiendita-> WHERE id_producto = 1;
+UPDATE 1
+tiendita=> SELECT * FROM tienda.productos;
+ id_producto | nombre | precio | stock
+-------------+--------+--------+-------
+           2 | huevos |   6.00 |    50
+           3 | fideos |   1.50 |    30
+           1 | leche  | 260.00 |    20
+(3 filas)
+
+
+tiendita=> UPDATE tienda.productos
+tiendita-> SET nombre = 'PcGamer'
+tiendita-> WHERE id_producto = 1;
+UPDATE 1
+tiendita=> SELECT * FROM tienda.productos;
+ id_producto | nombre  | precio | stock
+-------------+---------+--------+-------
+           2 | huevos  |   6.00 |    50
+           3 | fideos  |   1.50 |    30
+           1 | PcGamer | 260.00 |    20
+(3 filas)
+
+
+tiendita=> UPDATE tienda.productos
+tiendita-> SET stock = 100
+tiendita-> WHERE id_producto = 1;
+UPDATE 1
+tiendita=> SELECT * FROM tienda.productos;
+ id_producto | nombre  | precio | stock
+-------------+---------+--------+-------
+           2 | huevos  |   6.00 |    50
+           3 | fideos  |   1.50 |    30
+           1 | PcGamer | 260.00 |   100
+(3 filas)
+
+
+tiendita=> UPDATE tienda.productos
+tiendita-> SET nombre = 'ArsenicoPuro'
+tiendita-> WHERE id_producto = 1;
+UPDATE 1
+tiendita=> SELECT * FROM tienda.productos;
+ id_producto |    nombre    | precio | stock
+-------------+--------------+--------+-------
+           2 | huevos       |   6.00 |    50
+           3 | fideos       |   1.50 |    30
+           1 | ArsenicoPuro | 260.00 |   100
+(3 filas)
+
+
+tiendita=> \c tiendita postgres
+Contraseña para usuario postgres:
+
+Ahora está conectado a la base de datos «tiendita» con el usuario «postgres».
+tiendita=# REVOKE UPDATE ON tienda.productos FROM vendedor_rol;
+REVOKE
+tiendita=# \c tiendita laura_vendedor
+Contraseña para usuario laura_vendedor:
+
+Ahora está conectado a la base de datos «tiendita» con el usuario «laura_vendedor».
+tiendita=> SELECT * FROM tienda.productos;
+ id_producto |    nombre    | precio | stock
+-------------+--------------+--------+-------
+           2 | huevos       |   6.00 |    50
+           3 | fideos       |   1.50 |    30
+           1 | ArsenicoPuro | 260.00 |   100
+(3 filas)
+
+
+tiendita=>
+tiendita=> UPDATE tienda.productos
+tiendita-> SET nombre = 'Pedritomelectrocutaste'
+tiendita-> WHERE id_productos = 1;
+ERROR:  no existe la columna «id_productos»
+LÍNEA 3: WHERE id_productos = 1;
+               ^
+SUGERENCIA:  Probablemente quiera hacer referencia a la columna «productos.id_producto».
+tiendita=> UPDATE tienda.productos
+tiendita-> SET nombre = 'Hola'
+tiendita-> WHERE id_producto = 1;
+ERROR:  permiso denegado a la tabla productos
+tiendita=> \c tiendita postgres
+Contraseña para usuario postgres:
+
+Ahora está conectado a la base de datos «tiendita» con el usuario «postgres».
+tiendita=# SELECT precio FROM tienda.productos WHERE producto_id = 1;
+ERROR:  no existe la columna «producto_id»
+LÍNEA 1: SELECT precio FROM tienda.productos WHERE producto_id = 1;
+                                                   ^
+tiendita=# SELECT precio FROM tienda.productos WHERE id_producto = 1;
+ precio
+--------
+ 260.00
+(1 fila)
+
+
+tiendita=# begin;
+BEGIN
+tiendita=*# UPDATE tienda.productos
+tiendita-*# SET precio = 300
+tiendita-*# WHERE id_producto = 1;
+UPDATE 1
+tiendita=*# SELECT precio FROM tienda.producots WHERE id_producto = 1;
+ERROR:  no existe la relación «tienda.producots»
+LÍNEA 1: SELECT precio FROM tienda.producots WHERE id_producto = 1;
+                            ^
+tiendita=!# ROLLBACK;
+ROLLBACK
+tiendita=# BEGIN;
+BEGIN
+tiendita=*# UPDATE tienda.productos
+tiendita-*# SET precio = 300
+tiendita-*# WHERE id_producto = 1;
+UPDATE 1
+tiendita=*# SELECT precio FROM tienda.productos WHERE id_producto = 1;
+ precio
+--------
+ 300.00
+(1 fila)
+
+
+tiendita=*# ROLLBACK;
+ROLLBACK
+tiendita=# SELECT precio FROM tienda.productos WHERE id_producto = 1;
+ precio
+--------
+ 260.00
+(1 fila)
+
+
+tiendita=# BEGIN;
+BEGIN
+tiendita=*# UPDATE tienda.productos
+tiendita-*# SET precio = 280
+tiendita-*# WHERE id_producto = 1;
+UPDATE 1
+tiendita=*# SAVEPOINT antes_stock;
+SAVEPOINT
+tiendita=*# UPDATE tienda.productos
+tiendita-*# SET stock = 30
+tiendita-*# WHERE id_producto = 1;
+UPDATE 1
+tiendita=*# SELECT * FROM tienda.productos;
+ id_producto |    nombre    | precio | stock
+-------------+--------------+--------+-------
+           2 | huevos       |   6.00 |    50
+           3 | fideos       |   1.50 |    30
+           1 | ArsenicoPuro | 280.00 |    30
+(3 filas)
+
+
+tiendita=*# SELECT precio, stock FROM tienda.productos WHERE id_producto = 1;
+ precio | stock
+--------+-------
+ 280.00 |    30
+(1 fila)
+
+
+tiendita=*# ROLLBACK TO SAVEPOINT antes_stock;
+ROLLBACK
+tiendita=*# SELECT precio, stock FROM tienda.productos WHERE id_producto = 1;
+ precio | stock
+--------+-------
+ 280.00 |   100
+(1 fila)
+
+
+tiendita=*# BEGIN;
+WARNING:  ya hay una transacción en curso
+BEGIN
+tiendita=*# COMMIT;
+COMMIT
+tiendita=# CREATE OR REPLACE PROCEDURE tienda.ajustar_stock(
+tiendita(# p_id_producto INT,
+tiendita(# p_ajuste INT
+tiendita(# )
+tiendita-# language plpgsql
+tiendita-# AS $$
+tiendita$# DECLARE v_stock INT;
+tiendita$# BEGIN
+tiendita$# SELECT stock INTO v_stock
+tiendita$# FROM tienda.productos
+tiendita$# WHERE id_producto = p_id_producto
+tiendita$# FOR UPDATE;
+tiendita$# IF NOT FOUND THEN
+tiendita$# RAISE EXCEPTION 'El productos no existe';
+tiendita$# END IF;
+tiendita$# IF p_ajuste IS NULL THEN
+tiendita$# RAISE EXCEPTION 'El ajuste no puede ser nulo';
+tiendita$# END IF;
+tiendita$# IF v_stock + p_ajuste < 0 THEN
+tiendita$# RAISE EXCEPTION 'Stock insuficiente';
+tiendita$# END IF;
+tiendita$# UPDATE tienda.productos
+tiendita$# SET stock = v_stock + p_ajuste
+tiendita$# WHERE id_producto = p_id_producto;
+tiendita$# RAISE NOTICE 'Stock actualizado: % -> %',
+tiendita$# v_stock, v_stock + p_ajuste;
+tiendita$# END;
+tiendita$# $$;
+CREATE PROCEDURE
+tiendita=# CALL tienda.ajustar_stock(1, -2);
+NOTICE:  Stock actualizado: 100 -> 98
+CALL
+tiendita=# CALL tienda.ajustar_stock(1, 2);
+NOTICE:  Stock actualizado: 98 -> 100
+CALL
+tiendita=# SELECT id_producto, nombre, stock FROM tienda.productos WHERE id_producto = 1;
+ id_producto |    nombre    | stock
+-------------+--------------+-------
+           1 | ArsenicoPuro |   100
+(1 fila)
+
+
+tiendita=# CALL tienda.ajustar_stock(1,-10000);
+ERROR:  Stock insuficiente
+CONTEXTO:  función PL/pgSQL tienda.ajustar_stock(integer,integer) en la línea 15 en RAISE
+tiendita=# ^A
