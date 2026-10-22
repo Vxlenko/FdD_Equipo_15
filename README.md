@@ -1,4 +1,4 @@
-# Equipo 15 - Fundamento de Diseño
+# Equipo 15 - Fundamentos de Diseño
 ### Carrera de Ingeniería Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
@@ -15,7 +15,7 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 
 ## 📸 Fotografía del Equipo  
 <p align="center">
-<img width="1408" height="768" alt="imagen_alumnos_IA" src="/Recursos/Imágenes/Grupo.png" />
+<img width="1408" height="768" alt="equipo_15" src="/Recursos/Imágenes/Grupo.png" />
   <em>Figura 1. Fotografía del equipo 15</em>
 </p>
 
@@ -48,21 +48,35 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 
 ## 🎯 Objetivos del Proyecto
 
+## 🎯 Objetivos del Proyecto
+
 * **Objetivo General:**
-  Ayudar a jardines y parques residenciales mediante el desarrollo de un sistema de riego automatizado con monitoreo de humedad de suelo y control mediante una plataforma web para la gestión eficiente del agua
+  Desarrollar un sistema modular de monitoreo y riego por zonas para áreas verdes de San Martín de Porres, que utilice mediciones del suelo para apoyar las decisiones de riego y registre el consumo de agua.
 
 * **Objetivos Específicos:**
-  1. Implementar sensores de humedad que registren la condición del suelo cada 30 segundos con una precisión de ±5%.
-  2. Integrar un microcontrolador ESP32 para procesar los datos de humedad y activar de forma automatizada los actuadores de riego al superar los umbrales establecidos.
-  3. Desplegar una plataforma web que permita supervisar los datos del suelo y controlar el sistema de riego de manera remota.
+  1. Adquirir y visualizar la humedad y temperatura del suelo asociadas a una zona.
+  2. Centralizar la información y conservar registros con fecha y hora para su consulta web.
+  3. Integrar canales de riego independientes y medición de caudal por línea.
+  4. Validar las mediciones y comparar el consumo frente a una condición de referencia bajo condiciones comparables.
+
 ---
 
 ## 💡 Propuesta de Solución
 
-* **Descripción general:** Sistema de riego inteligente orientado a jardines y parques residenciales que combina monitoreo continuo del suelo y control mediante una aplicación web. El proceso se compone de cuatro fases: medir la humedad con sensores, analizar la lectura en el microcontrolador ESP32 frente a un umbral definido, regar activando el sistema solo cuando sea necesario y supervisar el estado general mediante la plataforma web.
-* **Problema que resuelve:** Elimina la ineficiencia asociada a los métodos tradicionales de riego (manuales o programados por temporizador fijo), los cuales operan independientemente del estado real del suelo y provocan un desperdicio significativo de agua por evaporación o escorrentía.
-* **Enfoque de diseño:** Aplica la metodología de diseño centrado en el usuario con un enfoque IoT de bajo costo. Prioriza el control basado en datos del entorno antes que en horarios prefijados, automatizando la toma de decisiones y facilitando la interacción del usuario mediante una interfaz web accesible.
+* **Descripción general:** Sistema modular de monitoreo y riego por zonas para áreas verdes de San Martín de Porres. Cada zona tiene un módulo de medición de humedad y temperatura del suelo basado en ESP32-C3, que se comunica con una central ESP32-S3 mediante ESP-NOW. La central envía los datos a una plataforma web y los almacena en Supabase.
+* **Problema que busca atender:** El riego con horario fijo o manual no considera la humedad real de cada sector. Esto puede dejar zonas con agua insuficiente y otras con riego innecesario.
+* **Enfoque de diseño:** Metodología VDI 2206, con alternativas de solución evaluadas mediante el método Pugh. El prototipo registrará el volumen de agua por zona para compararlo con un método de referencia.
+
 ---
 
-## 📌 Resumen Final  
-El proyecto implementa un sistema IoT de riego automatizado que optimiza el consumo hídrico en áreas verdes urbanas mediante la lectura de humedad en tiempo real con sensores y un microcontrolador ESP32. La integración con una plataforma web simplifica la supervisión del estado del suelo y la gestión remota del recurso, ofreciendo una alternativa tecnológica orientada a reducir el desperdicio de agua y mantener la sostenibilidad ambiental en espacios residenciales
+## 📂 Documentación del proyecto
+
+* [Informe técnico (Entregable 2)](Fundamentos%20de%20Dise%C3%B1o/Entregables/Entregable_2.md)
+* [Desk research y evaluación de referencias (Taller 7)](Fundamentos%20de%20Dise%C3%B1o/Talleres/Taller%207/Informe_Taller_7.md)
+* [Código y documentación por módulo](Proyecto/README.md)
+
+---
+
+## 📌 Resumen Final
+
+El proyecto propone un sistema modular de monitoreo y riego por zonas para áreas verdes de San Martín de Porres. Mide la humedad del suelo en cada zona, centraliza los datos en una plataforma web y registra el volumen de agua utilizado. El efecto del sistema sobre el consumo de agua se determinará con mediciones del prototipo.
