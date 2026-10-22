@@ -1,0 +1,38 @@
+# Cuadro de Desk Research
+
+| N° | Nombre del artículo o fuente | Tema | Aporte principal al proyecto | Exigencia o requisito que justifica | Restricción o limitación | Función principal | Aplicación al proyecto | Referencia corta |
+|:---:|---|---|---|---|---|---|---|:---:|
+| **1** | **Using a soil moisture sensor-based smart controller for autonomous irrigation management of hybrid bermudagrass with recycled water in coastal Southern California** | Medición de humedad del suelo | Mostró durante tres años cómo un controlador riega o deja de regar según la humedad del suelo, usando un límite mínimo y uno máximo.<br><br>Cada parcela tenía su electroválvula y un medidor de agua. | El sistema debe medir la humedad de cada zona y permitir cambiar los límites de riego de cada una. | Los autores advierten que regar solo con límites fijos durante varias temporadas, con poca agua y agua reciclada, puede empeorar el césped y aumentar la sal en el suelo.<br><br>Un solo sensor por zona no muestra qué pasa a más profundidad.<br><br>Un sensor falló en 2021.<br><br>Fue un ensayo en parcelas de prueba, con clima seco y un suelo específico.<br><br>No reporta un porcentaje de ahorro. | Medir la humedad del suelo y decidir cuándo regar. | Sirve para justificar un sensor de humedad por sector, límites de riego que se puedan ajustar y revisiones periódicas del estado del césped y de los sensores. | Singh et al. (2024) **[1]** |
+| **2** | **Development and validation of a solar-powered IoT drip irrigation system integrating multi-sensor monitoring and threshold control** | Riego independiente por zonas | En un invernadero con tomates, cada línea de riego tenía su propia electroválvula, su propio medidor de agua y su propio controlador.<br><br>Las líneas con control por humedad abrían y cerraban su válvula según su propio sensor. | Cada sector debe tener su propia salida de agua y su propio control, que decida según la humedad de ese sector. | En ese estudio el ahorro fue de 6,05 % durante el cultivo y de 34 % en una prueba de 15 días.<br><br>Ese resultado pertenece a ese estudio (tomates en macetas dentro de un invernadero) y no se puede asumir para el proyecto.<br><br>Solo hubo tres líneas por método y los autores presentan las diferencias como descriptivas.<br><br>Un solo sensor decidía el riego de toda la línea. | Controlar el riego de cada sector por separado. | Apoya la idea de armar el sistema por módulos: un controlador por sector, con su electroválvula, su sensor de humedad y su medidor de agua, que se pueda repetir en cada sector. | Falamba et al. (2026) **[2]** |
+| **3** | **Design, Implementation, and Empirical Validation of an IoT Smart Irrigation System for Fog Computing Applications Based on LoRa and LoRaWAN Sensor Nodes** | Monitoreo o comunicación inalámbrica | Probó una red inalámbrica de largo alcance (LoRa) en un campus con césped y árboles.<br><br>Cada nodo tenía sensores de suelo y una electroválvula, y se comunicaba con estaciones locales y con la nube. | La comunicación debe planificarse y medirse en el lugar, y el riego básico debe poder seguir funcionando aunque falle la nube. | Fueron solo 8 nodos en un campus, y el estudio se centró en la señal, no en el riego a largo plazo.<br><br>No probaron una caída de Internet.<br><br>Los comandos no se ejecutan al instante.<br><br>Calcularon un ahorro de 22,8 %, pero fue una estimación teórica basada en el pronóstico de lluvia, no una medición, y no se puede asumir para el proyecto.<br><br>Es de 2020. | Enviar datos y órdenes entre los sectores y el usuario. | Ayuda a elegir más adelante cómo se comunicarán los módulos y a revisar la señal en el parque antes de instalar.<br><br>También apoya tener una pantalla web para ver datos, sin depender de ella para el riego básico. | Froiz-Míguez et al. (2020) **[3]** |
+| **4** | **A Low-Cost IoT Sensor for Streamflow Monitoring: A Proof-of-Concept Using Commercial off the Shelf (COTS) Hardware** | Medición de caudal o consumo de agua | Armó un medidor de caudal económico con un sensor de efecto Hall (YF-S201) y lo probó en laboratorio.<br><br>Encontró que los pulsos del sensor aumentan de forma pareja con el caudal. | El sistema debe medir y guardar cuánta agua usa, y el medidor debe calibrarse con una medida real de referencia. | Es una prueba de laboratorio hecha para arroyos, no para riego.<br><br>Los autores dicen que sus medidas sirven más para ver cambios que para dar valores exactos, y no calcularon el error.<br><br>Con caudales muy bajos pierde sensibilidad.<br><br>Es una ponencia de congreso (no verifiqué su nivel de revisión).<br><br>No reporta ahorro de agua. | Medir cuántos litros se usan. | Sirve de guía para calibrar el medidor y registrar los litros al comparar el riego normal con el riego por humedad.<br><br>El sensor mencionado es solo un ejemplo, no una decisión de compra. | Ioannou et al. (2026) **[4]** |
+| **5** | **IoT-enabled solar-powered smart irrigation for precision agriculture** | Alimentación autónoma con batería y/o energía solar | Armó un sistema de riego alimentado con paneles solares y baterías: una estación central que controla una bomba y varias estaciones de campo con sensores, cada una con su minipanel y su batería. | La energía debe calcularse según el consumo de cada módulo, considerando la noche y los días nublados. | La duración de las baterías se calculó con cuentas, no se midió por mucho tiempo.<br><br>La prueba en exterior fue una sola, en un cultivo de hortalizas, y las lluvias limitaron el uso de la bomba.<br><br>Los propios autores piden pruebas más grandes.<br><br>No reporta porcentaje de ahorro de agua. | Dar energía al sistema con panel solar y batería. | Justifica estudiar después si los módulos pueden funcionar solos con panel y batería.<br><br>La duración real se tendrá que medir en pruebas propias. | Al Mamun et al. (2025) **[5]** |
+
+---
+
+## Referencias
+
+**[1]** A. Singh, A. Verdi, D. Haver, A. Sapkota y J. C. Iradukunda,  
+"Using a soil moisture sensor-based smart controller for autonomous irrigation management of hybrid bermudagrass with recycled water in coastal Southern California",  
+*Agricultural Water Management*, vol. 299, art. 108906, 2024.  
+https://doi.org/10.1016/j.agwat.2024.108906
+
+**[2]** S. Falamba, P. G. Home, S. Ondimu y E. Bwambale,  
+"Development and validation of a solar-powered IoT drip irrigation system integrating multi-sensor monitoring and threshold control",  
+*Smart Agricultural Technology*, vol. 14, art. 102402, 2026.  
+https://doi.org/10.1016/j.atech.2026.102402
+
+**[3]** I. Froiz-Míguez, P. Lopez-Iturri, P. Fraga-Lamas, M. Celaya-Echarri, Ó. Blanco-Novoa, L. Azpilicueta, F. Falcone y T. M. Fernández-Caramés,  
+"Design, Implementation, and Empirical Validation of an IoT Smart Irrigation System for Fog Computing Applications Based on LoRa and LoRaWAN Sensor Nodes",  
+*Sensors*, vol. 20, n.° 23, art. 6865, 2020.  
+https://doi.org/10.3390/s20236865
+
+**[4]** K. Ioannou, S. Stefanidis e I. Karmiris,  
+"A Low-Cost IoT Sensor for Streamflow Monitoring: A Proof-of-Concept Using Commercial off the Shelf (COTS) Hardware",  
+*Environmental and Earth Sciences Proceedings*, vol. 40, n.° 1, art. 14, 2026.  
+https://doi.org/10.3390/eesp2026040014
+
+**[5]** M. R. Al Mamun, A. K. Ahmed, S. M. Upoma, M. M. Haque y M. Ashik-E-Rabbani,  
+"IoT-enabled solar-powered smart irrigation for precision agriculture",  
+*Smart Agricultural Technology*, vol. 10, art. 100773, 2025.  
+https://doi.org/10.1016/j.atech.2025.100773
