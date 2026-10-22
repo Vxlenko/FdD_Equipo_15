@@ -35,15 +35,14 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 
 ## 🌍 Alineación con los Objetivos de Desarrollo Sostenible (ODS):
 
-* **ODS 11: Ciudades y Comunidades Sostenibles (Principal)**
-  * **Meta 11.7:** Promover el mantenimiento y acceso a áreas verdes públicas mediante el uso eficiente y automatizado del agua en entornos urbanos áridos.
+* **ODS 6: Agua Limpia y Saneamiento (Principal)**
+  * **Meta 6.4:** Aumentar la eficiencia en el uso del agua en el riego de áreas verdes urbanas mediante control por humedad y registro de consumo.
 
-* **ODS 6: Agua Limpia y Saneamiento**
-  * **Meta 6.4:** Incrementar la eficiencia del uso del agua en la gestión de infraestructura verde urbana para prevenir el desperdicio del recurso.
+* **ODS 9: Industria, Innovación e Infraestructura (Secundario)**
+  * **Meta 9.4:** Modernizar los sistemas de riego tradicionales incorporando tecnología IoT de bajo costo.
 
-* **ODS 9: Industria, Innovación e Infraestructura**
-  * **Meta 9.4:** Modernizar los sistemas de riego tradicionales incorporando tecnología IoT de bajo costo, accesible e innovadora.
-
+* **ODS 11: Ciudades y Comunidades Sostenibles (Secundario)**
+  * **Meta 11.7:** Contribuir al mantenimiento de áreas verdes públicas mediante un riego más eficiente.
 
 ---
 
