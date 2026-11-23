@@ -23,13 +23,13 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 
 ## 👥 Integrantes del Equipo  
 
-| Foto | Nombre | Rol | Intereses |
+| Foto | Nombre | Rol | Intereses |Carreras|
 |------|--------|-----|-----------|
-| <img src="/Recursos/Imágenes/Kenneth.png" width="90"/> | **Kenneth Samir Ramos Espinoza** | Líder del equipo | Innovación social, sostenibilidad |
-| <img src="/Recursos/Imágenes/Giordano.png" width="90"/> | **Giordano Valentino Valero Bonifacio** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |
-| <img src="/Recursos/Imágenes/Leonardo.png" width="90"/> | **Leonardo Pedro Espinoza Flores** | Diseñador/a | Diseño de prototipos, creatividad aplicada |
-| <img src="/Recursos/Imágenes/Josue.png" width="90"/> | **Josue Ismael Cardenas Luna** | Encargado/a de documentación | Comunicación científica, redacción técnica |
-| <img src="/Recursos/Imágenes/Willians.png" width="90"/> | **Leonel Willians Sotelo Mamani** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
+| <img src="/Recursos/Imágenes/Kenneth.png" width="90"/> | **Kenneth Samir Ramos Espinoza** | Líder del equipo | Innovación social, sostenibilidad |Ingeniería Informática|
+| <img src="/Recursos/Imágenes/Giordano.png" width="90"/> | **Giordano Valentino Valero Bonifacio** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |Ingeniería Informática|
+| <img src="/Recursos/Imágenes/Leonardo.png" width="90"/> | **Leonardo Pedro Espinoza Flores** | Diseñador/a | Diseño de prototipos, creatividad aplicada |Ingeniería Informática|
+| <img src="/Recursos/Imágenes/Josue.png" width="90"/> | **Josue Ismael Cardenas Luna** | Encargado/a de documentación | Comunicación científica, redacción técnica |Ingeniería Industrial|
+| <img src="/Recursos/Imágenes/Willians.png" width="90"/> | **Leonel Willians Sotelo Mamani** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |Ingeniería Informática|
 
 ---
 
