@@ -24,7 +24,7 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 ## 👥 Integrantes del Equipo  
 
 | Foto | Nombre | Rol | Intereses |Carreras|
-|------|--------|-----|-----------|
+|------|--------|-----|-----------|--------|
 | <img src="/Recursos/Imágenes/Kenneth.png" width="90"/> | **Kenneth Samir Ramos Espinoza** | Líder del equipo | Innovación social, sostenibilidad |Ingeniería Informática|
 | <img src="/Recursos/Imágenes/Giordano.png" width="90"/> | **Giordano Valentino Valero Bonifacio** | Responsable de investigación | Gestión ambiental, desarrollo comunitario |Ingeniería Informática|
 | <img src="/Recursos/Imágenes/Leonardo.png" width="90"/> | **Leonardo Pedro Espinoza Flores** | Diseñador/a | Diseño de prototipos, creatividad aplicada |Ingeniería Informática|
