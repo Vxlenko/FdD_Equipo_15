@@ -71,7 +71,7 @@ Aplicamos metodología de diseño centrado en el usuario para desarrollar una so
 
 ## 📂 Documentación del proyecto
 
-* [Informe técnico (Entregable 2)](Fundamentos de Diseño/Presentaciones de Proyecto/Avance de proyecto-Parcial/Informe técnico del sistema modular de monitoreo y riego .md)
+* - [Informe técnico (Entregable 2)](<Fundamentos de Diseño/Presentaciones de Proyecto/Avance de proyecto-Parcial/>)
 * [Desk research y evaluación de referencias (Taller 7)](Fundamentos%20de%20Dise%C3%B1o/Talleres/Taller%207/Informe_Taller_7.md)
 * [Código y documentación por módulo](Proyecto/README.md)
 
